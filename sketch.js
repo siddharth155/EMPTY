@@ -14,7 +14,7 @@ function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
     world = engine.world;
-
+//comments
     
     ground = new Ground(600,height,1200,20)
 
@@ -32,7 +32,7 @@ function setup(){
     box5 = new Box(810,160,70,70);
     log4 = new Log(760,120,150, PI/7);
     log5 = new Log(870,120,150, -PI/7);
-
+// creating bird
     bird = new Bird(100,100);
 
 }
@@ -43,6 +43,7 @@ function draw(){
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
     console.log(box2.body.angle);
+    //displaying objects
     box1.display();
     box2.display();
     ground.display();
